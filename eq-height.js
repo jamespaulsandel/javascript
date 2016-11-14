@@ -23,7 +23,8 @@
             });
             var highestCol = Math.max.apply(null, values);
             $(this).children('div').children('div').height(highestCol);
-        })
+        });
     }
 })(jQuery)
-
+	
+jQuery('.row').eqHeight();
